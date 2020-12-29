@@ -1,0 +1,2378 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="12/01/16||18:46:06" using="SimMechanics Link Version 4.6" from="SolidWorks 24.3.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="TestBenchAssembly" uid="TestBenchAssembly" version="197">
+<AssemblyFile name="TestBenchAssembly.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="StepperMotorClampAssembly-1" uid="StepperMotorClampAssembly-1" entityUid="StepperMotorClampAssembly" rigid="true">
+<Transform>
+<Rotation>-0.86602540378444015 0 0.49999999999999745 0 1 0 -0.49999999999999745 0 -0.86602540378444015</Rotation>
+<Translation>0.11344418274239824 0.12156987637390748 0.35389635116601081</Translation>
+</Transform>
+<Instance name="MotorClamp-1" uid="MotorClamp-1" grounded="true" entityUid="MotorClamp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.027909169337594963 0.045383871971024836 0.096148251365257342</Translation>
+</Transform>
+</Instance>
+<Instance name="Nema23StepperMotor-1" uid="Nema23StepperMotor-1" entityUid="Nema23StepperMotor" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0067678413732886189 0.0092699002788009521 0.0085982285712020434</Translation>
+</Transform>
+<Instance name="MotorBody-1" uid="MotorBody-1" grounded="true" entityUid="MotorBody*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0211413279643064 0.036113971692223884 0.050050022794055293</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorFront-1" uid="MotorFront-1" entityUid="MotorFront*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.021141327964306345 0.036113971692223884 0.082550022794055294</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorShaft-1" uid="MotorShaft-1" entityUid="MotorShaft*:*Default">
+<Transform>
+<Rotation>0.99941550846496285 -0.03418539804828849 0 0.03418539804828849 0.99941550846496285 0 0 0 1</Rotation>
+<Translation>0.021141327964306345 0.036113971692223884 0.061050022794055275</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorRear-1" uid="MotorRear-1" entityUid="MotorRear*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.021141327964306345 0.036113971692223884 0.017550022794055237</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="TestBenchChassis-1" uid="TestBenchChassis-1" grounded="true" entityUid="TestBenchChassis*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.16309697008611218 0.12745374834493234 0.3373588943768504</Translation>
+</Transform>
+</Instance>
+<Instance name="StepperMotorClampAssembly-3" uid="StepperMotorClampAssembly-3" entityUid="StepperMotorClampAssembly" rigid="true">
+<Transform>
+<Rotation>0.86602540378443793 0 0.50000000000000133 0 1 0 -0.50000000000000133 0 0.86602540378443793</Rotation>
+<Translation>0.15360150606456874 0.12156987637390751 0.25144857462253001</Translation>
+</Transform>
+<Instance name="MotorClamp-1" uid="MotorClamp-1" grounded="true" entityUid="MotorClamp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.027909169337594991 0.045383871971024836 0.096148251365257287</Translation>
+</Transform>
+</Instance>
+<Instance name="Nema23StepperMotor-1" uid="Nema23StepperMotor-1" entityUid="Nema23StepperMotor" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0067678413732886189 0.0092699002788009521 0.0085982285712020157</Translation>
+</Transform>
+<Instance name="MotorBody-1" uid="MotorBody-1" grounded="true" entityUid="MotorBody*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.021141327964306372 0.036113971692223884 0.050050022794055238</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorFront-1" uid="MotorFront-1" entityUid="MotorFront*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.021141327964306372 0.036113971692223884 0.082550022794055267</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorShaft-1" uid="MotorShaft-1" entityUid="MotorShaft*:*Default">
+<Transform>
+<Rotation>0.99941550846496297 -0.03418539804828849 0 0.03418539804828849 0.99941550846496285 0 0 0 1</Rotation>
+<Translation>0.021141327964306372 0.036113971692223884 0.061050022794055248</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorRear-1" uid="MotorRear-1" entityUid="MotorRear*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.021141327964306372 0.036113971692223884 0.017550022794055264</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="TwoOmniWheelAxleAssembly-3" uid="TwoOmniWheelAxleAssembly-3" entityUid="TwoOmniWheelAxleAssembly" rigid="true">
+<Transform>
+<Rotation>0.77500095876250019 -0.15612019061351848 -0.61237243569579802 -0.44862149822613651 0.54656998758561659 -0.70710678118654446 0.44509804003898096 0.8227318729412747 0.35355339059327412</Rotation>
+<Translation>0.29977420294374202 0.21357160291682198 0.26527841862352386</Translation>
+</Transform>
+<Instance name="OmniWheel-1" uid="OmniWheel-1" entityUid="OmniWheel" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.028526873005923381 -0.031591046780220844 -0.032238314471320056</Translation>
+</Transform>
+<Instance name="RollerAxleSubAssembly-2" uid="RollerAxleSubAssembly-2" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>1.6653345369377348e-016 -0.17364817766693502 -0.98480775301220735 0 0.98480775301220747 -0.17364817766693508 1 1.1102230246251565e-016 0</Rotation>
+<Translation>0.057731387649937793 0.094924087907562016 0.052754160221359842</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900823 0.012167300683155857 0.0164550987266327</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858896 0.46372832878067183 0 -0.46372832878067177 0.88597744727858918 0 0 0 0.99999999999999978</Rotation>
+<Translation>0.0083963948001900823 0.012167300683155857 0.0164550987266327</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900823 0.012167300683155857 0.024955098726632707</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-4" uid="RollerAxleSubAssembly-4" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 0.93969262078590843 -0.34202014332566871 1.1102230246251563e-016 0.34202014332566871 0.93969262078590843 1 -1.1621699257559074e-016 0</Rotation>
+<Translation>0.081948486176718127 0.056515495880894329 0.052754160221359814</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900823 0.012167300683155857 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858929 0.46372832878067194 0 -0.46372832878067177 0.88597744727858907 0 1.5699247457590104e-016 0 0.99999999999999989</Rotation>
+<Translation>0.0083963948001900823 0.012167300683155857 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155857 0.024955098726632735</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900823 0.012167300683155857 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="OmniFrame-1" uid="OmniFrame-1" grounded="true" entityUid="OmniFrame*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.046953148146194779 0.061289384808479008 0.056150555021549892</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerAxleSubAssembly-1" uid="RollerAxleSubAssembly-1" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>-2.2204460492503131e-016 0.76604444311898157 -0.64278760968653526 0 -0.64278760968653526 -0.76604444311898157 -1 -1.8041124150158794e-016 0</Rotation>
+<Translation>0.014948402064887817 0.10962516126565436 0.069546949821739978</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155829 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067177 0 -0.46372832878067177 0.88597744727858907 0 0 0 0.99999999999999978</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155829 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901656 0.012167300683155836 0.024955098726632763</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155829 0.0074550987266326918</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-3" uid="RollerAxleSubAssembly-3" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 0.50000000000000011 -0.8660254037844386 1.1102230246251563e-016 0.8660254037844386 0.50000000000000011 1 -1.3778149774262176e-016 0</Rotation>
+<Translation>0.07682972903221863 0.080126943406248041 0.052754160221359786</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632714</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067194 0 -0.46372832878067194 0.88597744727858929 0 1.0972125985553305e-016 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632714</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155802 0.024955098726632735</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155857 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-5" uid="RollerAxleSubAssembly-5" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>-1.1102230246251563e-016 -0.93969262078590787 0.34202014332566999 -3.3306690738754686e-016 0.34202014332566999 0.93969262078590787 -1 0 -3.5095237890063662e-016</Rotation>
+<Translation>0.093559581060565944 0.026814880193544166 0.069546949821740006</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900823 0.012167300683155857 0.016455098726632644</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858918 0.46372832878067183 0 -0.46372832878067177 0.88597744727858929 0 -1.1102230246251565e-016 0 0.99999999999999989</Rotation>
+<Translation>0.0083963948001900823 0.012167300683155857 0.016455098726632644</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900823 0.012167300683155829 0.024955098726632707</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155829 0.0074550987266326918</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="OmniFrame-2" uid="OmniFrame-2" entityUid="OmniFrame*:*Default">
+<Transform>
+<Rotation>-0.49999999999999206 0.86602540378444326 0 0.86602540378444326 0.49999999999999206 1.0358521839084627e-016 0 1.1102230246251563e-016 -1</Rotation>
+<Translation>0.046953148146194779 0.061289384808478953 0.066150555021549873</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerAxleSubAssembly-8" uid="RollerAxleSubAssembly-8" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>1.3877787807814457e-016 0.76604444311898123 -0.6427876096865357 1.6653345369377348e-016 0.6427876096865357 0.76604444311898123 1 0 0</Rotation>
+<Translation>0.014948402064887845 0.012953608351303492 0.052754160221359758</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900268 0.012167300683155857 0.016455098726632714</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858918 0.46372832878067177 1.2490009027033011e-016 -0.46372832878067183 0.88597744727858918 0 0 0 1</Rotation>
+<Translation>0.0083963948001900268 0.012167300683155857 0.016455098726632714</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155802 0.024955098726632735</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001899991 0.012167300683155802 0.0074550987266327196</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-6" uid="RollerAxleSubAssembly-6" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>-1.3877787807814454e-016 -0.49999999999999523 0.86602540378444148 -1.6653345369377343e-016 0.86602540378444148 0.49999999999999523 -1 0 -2.0345189474585905e-016</Rotation>
+<Translation>0.06049596267728452 0.0049223445098836582 0.069546949821739978</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155871 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858918 0.46372832878067166 2.482106990317866e-016 -0.46372832878067172 0.88597744727858907 0 -2.2204460492503126e-016 -1.1102230246251556e-016 0.99999999999999989</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155871 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901378 0.012167300683155871 0.024955098726632763</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901378 0.012167300683155843 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-7" uid="RollerAxleSubAssembly-7" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>1.3877787807814457e-016 0.17364817766693411 -0.98480775301220747 1.6653345369377348e-016 0.98480775301220747 0.17364817766693411 1 0 0</Rotation>
+<Translation>0.053505728468426494 0.0036897776173906993 0.052754160221359786</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632811</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858918 0.46372832878067183 0 -0.46372832878067183 0.88597744727858907 0 0 0 0.99999999999999967</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632811</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155857 0.024955098726632763</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901378 0.012167300683155857 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-9" uid="RollerAxleSubAssembly-9" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>-1.1102230246251563e-016 -1 0 -1.1102230246251563e-016 0 1 -1 1.1102230246251573e-016 -1.1102230246251563e-016</Rotation>
+<Translation>0.01570105341223671 0.044834286081846142 0.069546949821739978</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632811</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858896 0.46372832878067183 1.6653345369377348e-016 -0.46372832878067172 0.88597744727858896 0 -1.2490009027033011e-016 -1.1102230246251565e-016 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632811</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.024955098726632763</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155829 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="OmniWheel-2" uid="OmniWheel-2" entityUid="OmniWheel" rigid="true">
+<Transform>
+<Rotation>0.50000000000001021 0.86602540378443293 0 -0.86602540378443282 0.50000000000001033 1.6653345369377348e-016 0 0 1</Rotation>
+<Translation>-0.058128463159289379 0.039716264706276871 -0.052238314471320074</Translation>
+</Transform>
+<Instance name="RollerAxleSubAssembly-2" uid="RollerAxleSubAssembly-2" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 -0.17364817766693508 -0.98480775301220724 -1.1102230246251563e-016 0.98480775301220724 -0.17364817766693508 1 1.0451591909660091e-016 0</Rotation>
+<Translation>0.057731387649937793 0.094924087907562016 0.052754160221359758</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155913 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858918 0.46372832878067172 0 -0.46372832878067172 0.88597744727858918 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155913 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155913 0.024955098726632721</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155913 0.0074550987266327196</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-4" uid="RollerAxleSubAssembly-4" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 0.93969262078590821 -0.34202014332566866 0 0.34202014332566866 0.93969262078590821 1 0 1.1102230246251565e-016</Rotation>
+<Translation>0.081948486176718155 0.056515495880894273 0.052754160221359814</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900268 0.012167300683155871 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067172 0 -0.46372832878067172 0.88597744727858896 0 0 0 0.99999999999999978</Rotation>
+<Translation>0.0083963948001900268 0.012167300683155871 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900268 0.012167300683155857 0.024955098726632763</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.01216730068315585 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="OmniFrame-1" uid="OmniFrame-1" grounded="true" entityUid="OmniFrame*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.046953148146194723 0.061289384808478897 0.056150555021549919</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerAxleSubAssembly-1" uid="RollerAxleSubAssembly-1" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>-1.1102230246251565e-016 0.76604444311898157 -0.64278760968653503 2.2204460492503131e-016 -0.64278760968653526 -0.76604444311898168 -1 -2.7755575615628914e-016 0</Rotation>
+<Translation>0.014948402064887817 0.1096251612656543 0.069546949821740034</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901656 0.012167300683155913 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858896 0.46372832878067194 0 -0.46372832878067188 0.88597744727858907 -1.6271848959963681e-016 -1.3877787807814457e-016 1.1102230246251563e-016 1</Rotation>
+<Translation>0.0083963948001901656 0.012167300683155913 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901378 0.012167300683155857 0.024955098726632763</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901378 0.012167300683155913 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-3" uid="RollerAxleSubAssembly-3" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>-1.1102230246251565e-016 0.50000000000000011 -0.8660254037844386 -1.1102230246251565e-016 0.86602540378443882 0.50000000000000022 1 0 0</Rotation>
+<Translation>0.076829729032218547 0.080126943406248041 0.052754160221359814</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.0164550987266327</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858918 0.46372832878067194 1.1102230246251565e-016 -0.46372832878067188 0.88597744727858929 0 0 1.6653345369377348e-016 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.0164550987266327</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.024955098726632763</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900268 0.012167300683155857 0.0074550987266326363</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-5" uid="RollerAxleSubAssembly-5" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 -0.93969262078590776 0.34202014332566977 -1.6653345369377348e-016 0.34202014332566999 0.93969262078590798 -1 0 -2.2204460492503131e-016</Rotation>
+<Translation>0.093559581060565833 0.026814880193544111 0.069546949821740034</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901378 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858918 0.46372832878067177 0 -0.46372832878067177 0.88597744727858918 -1.4754488419009661e-016 0 1.6653345369377353e-016 1</Rotation>
+<Translation>0.0083963948001901378 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.024955098726632707</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901656 0.012167300683155829 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="OmniFrame-2" uid="OmniFrame-2" entityUid="OmniFrame*:*Default">
+<Transform>
+<Rotation>-0.49999999999999201 0.86602540378444326 0 0.86602540378444337 0.49999999999999201 0 0 0 -1</Rotation>
+<Translation>0.046953148146194751 0.061289384808478953 0.066150555021549873</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerAxleSubAssembly-8" uid="RollerAxleSubAssembly-8" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 0.76604444311898123 -0.64278760968653559 0 0.64278760968653559 0.76604444311898134 1 2.0816681711721685e-016 0</Rotation>
+<Translation>0.014948402064887817 0.012953608351303492 0.052754160221359814</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001899991 0.012167300683155843 0.0164550987266327</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858918 0.46372832878067166 0 -0.46372832878067166 0.88597744727858918 0 0 0 1</Rotation>
+<Translation>0.0083963948001899991 0.012167300683155843 0.0164550987266327</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001899991 0.012167300683155857 0.024955098726632763</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155829 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-6" uid="RollerAxleSubAssembly-6" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 -0.49999999999999512 0.86602540378444126 0 0.86602540378444159 0.49999999999999517 -1 0 0</Rotation>
+<Translation>0.060495962677284465 0.0049223445098836582 0.069546949821739978</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155913 0.016455098726632714</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067172 0 -0.46372832878067183 0.88597744727858918 0 0 1.1796119636642288e-016 0.99999999999999978</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155913 0.016455098726632714</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.024955098726632735</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.0074550987266327334</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-7" uid="RollerAxleSubAssembly-7" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 0.17364817766693394 -0.98480775301220747 0 0.98480775301220747 0.17364817766693394 1 0 0</Rotation>
+<Translation>0.053505728468426494 0.0036897776173906438 0.052754160221359786</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901378 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858885 0.46372832878067194 0 -0.46372832878067194 0.88597744727858896 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.0083963948001901378 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900823 0.012167300683155857 0.024955098726632707</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901378 0.012167300683155857 0.0074550987266326918</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-9" uid="RollerAxleSubAssembly-9" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 -0.99999999999999989 0 0 0 1 -1 0 0</Rotation>
+<Translation>0.01570105341223671 0.044834286081846197 0.069546949821739951</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901378 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858918 0.46372832878067183 0 -0.46372832878067183 0.88597744727858918 1.1102230246251565e-016 -1.1102230246251565e-016 0 0.99999999999999989</Rotation>
+<Translation>0.0083963948001901378 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900823 0.012167300683155857 0.024955098726632763</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155857 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="OmniWheelJoint-1" uid="OmniWheelJoint-1" grounded="true" entityUid="OmniWheelJoint*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.018426275140270953 0.029698338028258386 0.013912240550229799</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="TwoOmniWheelAxleAssembly-1" uid="TwoOmniWheelAxleAssembly-1" entityUid="TwoOmniWheelAxleAssembly" rigid="true">
+<Transform>
+<Rotation>-0.35767816658755847 0.70502931084215026 0.6123724356957988 -0.64663150822050164 0.28612530922041479 -0.70710678118654835 -0.67374625915328246 -0.6488959687630711 0.35355339059326429</Rotation>
+<Translation>0.061428344038216162 0.22495496393725606 0.22740845496773343</Translation>
+</Transform>
+<Instance name="OmniWheel-1" uid="OmniWheel-1" entityUid="OmniWheel" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.028526873005923381 -0.031591046780220816 -0.032238314471320098</Translation>
+</Transform>
+<Instance name="RollerAxleSubAssembly-2" uid="RollerAxleSubAssembly-2" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 -0.17364817766693522 -0.98480775301220724 -1.1102230246251568e-016 0.98480775301220724 -0.17364817766693522 1 1.141553293481025e-016 0</Rotation>
+<Translation>0.057731387649937793 0.094924087907561919 0.052754160221359786</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067183 -1.346738374955154e-016 -0.46372832878067183 0.88597744727858907 1.0181709419916977e-016 1.6653345369377353e-016 0 0.99999999999999989</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155843 0.024955098726632707</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900962 0.012167300683155871 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-4" uid="RollerAxleSubAssembly-4" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 0.93969262078590865 -0.3420201433256686 0 0.34202014332566866 0.93969262078590843 0.99999999999999989 0 0</Rotation>
+<Translation>0.081948486176718127 0.056515495880894287 0.0527541602213598</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632741</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858896 0.46372832878067199 0 -0.46372832878067194 0.88597744727858907 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632741</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.008396394800190124 0.012167300683155857 0.024955098726632735</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.008396394800190117 0.012167300683155857 0.0074550987266327334</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="OmniFrame-1" uid="OmniFrame-1" grounded="true" entityUid="OmniFrame*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.046953148146194779 0.061289384808478925 0.05615055502154985</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerAxleSubAssembly-1" uid="RollerAxleSubAssembly-1" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>-1.6653345369377356e-016 0.76604444311898168 -0.64278760968653514 2.2204460492503141e-016 -0.64278760968653514 -0.76604444311898168 -1 -2.7029954763907939e-016 0</Rotation>
+<Translation>0.014948402064887789 0.1096251612656543 0.069546949821739951</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900823 0.012167300683155857 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858896 0.46372832878067183 0 -0.46372832878067183 0.88597744727858907 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.0083963948001900823 0.012167300683155857 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900962 0.012167300683155802 0.024955098726632735</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900823 0.012167300683155857 0.0074550987266327196</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-3" uid="RollerAxleSubAssembly-3" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 0.50000000000000022 -0.8660254037844386 0 0.8660254037844386 0.50000000000000011 0.99999999999999978 0 0</Rotation>
+<Translation>0.076829729032218574 0.080126943406248 0.052754160221359821</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900754 0.012167300683155843 0.0164550987266327</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858896 0.46372832878067194 0 -0.46372832878067222 0.88597744727858907 0 0 -1.1102230246251565e-016 0.99999999999999989</Rotation>
+<Translation>0.0083963948001900754 0.012167300683155843 0.0164550987266327</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900823 0.012167300683155843 0.024955098726632763</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900823 0.012167300683155829 0.0074550987266327196</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-5" uid="RollerAxleSubAssembly-5" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 -0.93969262078590798 0.34202014332566993 -1.3877787807814459e-016 0.34202014332566993 0.93969262078590798 -1 0 -1.4939447985864666e-016</Rotation>
+<Translation>0.093559581060565833 0.026814880193544083 0.069546949821739965</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900962 0.012167300683155829 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067183 0 -0.46372832878067183 0.88597744727858907 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.0083963948001900962 0.012167300683155829 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.024955098726632721</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900823 0.012167300683155829 0.0074550987266327196</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="OmniFrame-2" uid="OmniFrame-2" entityUid="OmniFrame*:*Default">
+<Transform>
+<Rotation>-0.49999999999999195 0.86602540378444326 0 0.86602540378444315 0.4999999999999919 0 0 0 -0.99999999999999978</Rotation>
+<Translation>0.046953148146194779 0.061289384808478897 0.066150555021549873</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerAxleSubAssembly-8" uid="RollerAxleSubAssembly-8" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 0.76604444311898123 -0.64278760968653537 0 0.64278760968653537 0.76604444311898123 1 0 0</Rotation>
+<Translation>0.014948402064887845 0.012953608351303478 0.052754160221359772</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858929 0.46372832878067177 0 -0.46372832878067183 0.88597744727858907 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900962 0.012167300683155857 0.024955098726632707</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.0074550987266326918</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-6" uid="RollerAxleSubAssembly-6" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 -0.49999999999999517 0.86602540378444148 0 0.86602540378444148 0.49999999999999517 -1 0 0</Rotation>
+<Translation>0.06049596267728452 0.0049223445098836582 0.069546949821739978</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900962 0.012167300683155829 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858896 0.46372832878067183 0 -0.46372832878067177 0.88597744727858907 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.0083963948001900962 0.012167300683155829 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.024955098726632763</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.0074550987266326918</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-7" uid="RollerAxleSubAssembly-7" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 0.17364817766693413 -0.98480775301220735 0 0.98480775301220735 0.17364817766693413 1 0 0</Rotation>
+<Translation>0.053505728468426494 0.0036897776173906577 0.052754160221359786</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900962 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067177 0 -0.46372832878067177 0.88597744727858918 -1.4754488419009654e-016 0 1.6653345369377346e-016 1</Rotation>
+<Translation>0.0083963948001900962 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900823 0.012167300683155843 0.024955098726632818</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900823 0.012167300683155871 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-9" uid="RollerAxleSubAssembly-9" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 -1 0 0 0 0.99999999999999978 -0.99999999999999978 0 0</Rotation>
+<Translation>0.01570105341223671 0.04483428608184617 0.069546949821739978</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900962 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858896 0.46372832878067194 0 -0.46372832878067194 0.88597744727858896 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.0083963948001900962 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900823 0.012167300683155913 0.024955098726632735</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900962 0.012167300683155857 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="OmniWheel-2" uid="OmniWheel-2" entityUid="OmniWheel" rigid="true">
+<Transform>
+<Rotation>0.50000000000001021 0.8660254037844326 0 -0.8660254037844326 0.50000000000001021 0 0 0 0.99999999999999978</Rotation>
+<Translation>-0.058128463159289323 0.039716264706276871 -0.052238314471320074</Translation>
+</Transform>
+<Instance name="RollerAxleSubAssembly-2" uid="RollerAxleSubAssembly-2" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 -0.17364817766693524 -0.98480775301220724 -1.1102230246251565e-016 0.98480775301220713 -0.17364817766693513 0.99999999999999989 1.1102230246251565e-016 0</Rotation>
+<Translation>0.057731387649937821 0.09492408790756196 0.052754160221359821</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900893 0.012167300683155885 0.0164550987266327</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067194 0 -0.46372832878067194 0.88597744727858907 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.0083963948001900893 0.012167300683155885 0.0164550987266327</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900685 0.012167300683155913 0.024955098726632735</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900893 0.012167300683155857 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-4" uid="RollerAxleSubAssembly-4" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 0.93969262078590854 -0.34202014332566877 0 0.34202014332566855 0.93969262078590821 1 0 0</Rotation>
+<Translation>0.081948486176718141 0.056515495880894218 0.052754160221359786</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.008396394800190124 0.012167300683155829 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067172 1.3284343157814302e-016 -0.46372832878067172 0.88597744727858907 1.3409819781677556e-016 0 -1.8041124150158789e-016 0.99999999999999978</Rotation>
+<Translation>0.008396394800190124 0.012167300683155829 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900823 0.012167300683155802 0.024955098726632735</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="OmniFrame-1" uid="OmniFrame-1" grounded="true" entityUid="OmniFrame*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.046953148146194779 0.061289384808478897 0.056150555021549864</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerAxleSubAssembly-1" uid="RollerAxleSubAssembly-1" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>-1.3877787807814459e-016 0.76604444311898168 -0.64278760968653492 2.2204460492503136e-016 -0.64278760968653492 -0.76604444311898168 -1 -2.4903754317315808e-016 0</Rotation>
+<Translation>0.014948402064887845 0.10962516126565428 0.069546949821739965</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900962 0.012167300683155829 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858918 0.46372832878067172 0 -0.46372832878067183 0.88597744727858907 1.4754488419009656e-016 0 -1.6653345369377348e-016 1</Rotation>
+<Translation>0.0083963948001900962 0.012167300683155829 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900615 0.012167300683155843 0.024955098726632707</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900754 0.012167300683155843 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-3" uid="RollerAxleSubAssembly-3" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 0.50000000000000011 -0.86602540378443871 0 0.8660254037844386 0.50000000000000011 0.99999999999999989 0 0</Rotation>
+<Translation>0.076829729032218602 0.080126943406248013 0.052754160221359814</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900754 0.012167300683155857 0.016455098726632741</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067194 0 -0.46372832878067205 0.88597744727858929 0 0 0 1</Rotation>
+<Translation>0.0083963948001900754 0.012167300683155857 0.016455098726632741</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900754 0.012167300683155857 0.024955098726632749</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901031 0.012167300683155802 0.0074550987266327196</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-5" uid="RollerAxleSubAssembly-5" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 -0.93969262078590798 0.34202014332566988 -2.2204460492503131e-016 0.34202014332566988 0.93969262078590776 -0.99999999999999989 -1.1102230246251565e-016 -2.2204460492503131e-016</Rotation>
+<Translation>0.093559581060565888 0.026814880193544055 0.069546949821739992</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858918 0.46372832878067172 0 -0.46372832878067177 0.88597744727858907 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.008396394800190124 0.012167300683155857 0.024955098726632763</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155843 0.0074550987266326918</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="OmniFrame-2" uid="OmniFrame-2" entityUid="OmniFrame*:*Default">
+<Transform>
+<Rotation>-0.49999999999999223 0.86602540378444315 0 0.86602540378444326 0.49999999999999217 -1.2390370993480723e-016 -1.1102230246251568e-016 0 -1</Rotation>
+<Translation>0.046953148146194779 0.061289384808478897 0.066150555021549873</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerAxleSubAssembly-8" uid="RollerAxleSubAssembly-8" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 0.76604444311898112 -0.6427876096865357 0 0.64278760968653548 0.76604444311898112 0.99999999999999989 1.3877787807814457e-016 0</Rotation>
+<Translation>0.014948402064887845 0.012953608351303436 0.052754160221359772</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.008396394800190124 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858929 0.46372832878067177 0 -0.46372832878067183 0.88597744727858918 0 1.110223024625157e-016 0 1.0000000000000002</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.008396394800190124 0.012167300683155857 0.024955098726632749</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.0074550987266327334</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-6" uid="RollerAxleSubAssembly-6" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 -0.49999999999999523 0.86602540378444126 0 0.86602540378444126 0.49999999999999523 -1 0 0</Rotation>
+<Translation>0.06049596267728452 0.0049223445098836027 0.069546949821740006</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.008396394800190124 0.012167300683155857 0.0164550987266327</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067188 0 -0.46372832878067183 0.88597744727858918 0 0 0 1</Rotation>
+<Translation>0.008396394800190124 0.012167300683155857 0.0164550987266327</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155829 0.024955098726632707</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.008396394800190124 0.012167300683155857 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-7" uid="RollerAxleSubAssembly-7" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 0.17364817766693405 -0.98480775301220724 0 0.98480775301220735 0.17364817766693402 0.99999999999999989 0 0</Rotation>
+<Translation>0.053505728468426494 0.0036897776173906438 0.0527541602213598</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900962 0.012167300683155913 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067194 0 -0.46372832878067194 0.88597744727858896 0 0 0 1</Rotation>
+<Translation>0.0083963948001900685 0.012167300683155913 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900962 0.012167300683155913 0.024955098726632735</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.008396394800190124 0.012167300683155857 0.0074550987266327196</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-9" uid="RollerAxleSubAssembly-9" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 -1 0 0 0 0.99999999999999978 -0.99999999999999989 0 0</Rotation>
+<Translation>0.01570105341223671 0.044834286081846142 0.069546949821739978</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.008396394800190124 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858896 0.46372832878067183 0 -0.46372832878067188 0.88597744727858907 0 0 0 0.99999999999999978</Rotation>
+<Translation>0.008396394800190124 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900962 0.012167300683155829 0.024955098726632763</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.008396394800190124 0.012167300683155829 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="OmniWheelJoint-1" uid="OmniWheelJoint-1" grounded="true" entityUid="OmniWheelJoint*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.018426275140270953 0.029698338028258359 0.013912240550229785</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="TwoOmniWheelAxleAssembly-2" uid="TwoOmniWheelAxleAssembly-2" entityUid="TwoOmniWheelAxleAssembly" rigid="true">
+<Transform>
+<Rotation>1 -5.6769224962778274e-016 -2.2478363773692704e-016 -5.6036507388241264e-016 -0.7071067811865468 -0.70710678118654835 2.4247300479529062e-016 0.70710678118654835 -0.7071067811865468</Rotation>
+<Translation>0.085670694945841216 0.24253729621383754 0.42815837857879002</Translation>
+</Transform>
+<Instance name="OmniWheel-1" uid="OmniWheel-1" entityUid="OmniWheel" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.028526873005923353 -0.031591046780220788 -0.032238314471320195</Translation>
+</Transform>
+<Instance name="RollerAxleSubAssembly-2" uid="RollerAxleSubAssembly-2" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 -0.17364817766693511 -0.98480775301220735 -1.1102230246251565e-016 0.98480775301220724 -0.17364817766693513 1.0000000000000002 1.1102230246251565e-016 0</Rotation>
+<Translation>0.057731387649937807 0.094924087907561933 0.052754160221359814</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.8859774472785894 0.46372832878067194 0 -0.46372832878067183 0.88597744727858918 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901656 0.012167300683155802 0.024955098726632763</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155829 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-4" uid="RollerAxleSubAssembly-4" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 0.93969262078590854 -0.34202014332566866 0 0.34202014332566877 0.93969262078590843 1.0000000000000002 0 0</Rotation>
+<Translation>0.081948486176718155 0.056515495880894245 0.052754160221359814</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632672</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067183 1.6653345369377348e-016 -0.46372832878067188 0.88597744727858918 0 -1.1102230246251565e-016 0 0.99999999999999989</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632672</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.02495509872663268</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155802 0.0074550987266327196</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="OmniFrame-1" uid="OmniFrame-1" grounded="true" entityUid="OmniFrame*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.046953148146194779 0.061289384808478897 0.056150555021549975</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerAxleSubAssembly-1" uid="RollerAxleSubAssembly-1" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>-1.5710889342795459e-016 0.76604444311898146 -0.64278760968653514 1.1102230246251563e-016 -0.64278760968653514 -0.76604444311898146 -1 -1.9171615519683282e-016 0</Rotation>
+<Translation>0.014948402064887817 0.1096251612656543 0.069546949821740034</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155885 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067177 -1.1997238488356188e-016 -0.46372832878067172 0.88597744727858907 -1.0950738378509285e-016 0 1.5265566588595902e-016 0.99999999999999978</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155885 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.024955098726632735</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.0074550987266327196</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-3" uid="RollerAxleSubAssembly-3" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 0.50000000000000011 -0.8660254037844386 0 0.8660254037844386 0.50000000000000011 1 0 0</Rotation>
+<Translation>0.076829729032218574 0.080126943406248041 0.052754160221359869</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155857 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067199 0 -0.46372832878067205 0.88597744727858907 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155857 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155829 0.024955098726632735</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.0074550987266327196</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-5" uid="RollerAxleSubAssembly-5" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 -0.93969262078590787 0.34202014332566993 -1.1102230246251565e-016 0.34202014332566999 0.93969262078590798 -1 0 -1.1102230246251565e-016</Rotation>
+<Translation>0.093559581060565888 0.026814880193544055 0.069546949821740034</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067172 0 -0.46372832878067172 0.88597744727858918 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.024955098726632791</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155829 0.0074550987266327751</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="OmniFrame-2" uid="OmniFrame-2" entityUid="OmniFrame*:*Default">
+<Transform>
+<Rotation>-0.49999999999999201 0.86602540378444326 0 0.86602540378444326 0.49999999999999206 0 0 0 -1.0000000000000002</Rotation>
+<Translation>0.046953148146194751 0.061289384808478897 0.066150555021549984</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerAxleSubAssembly-8" uid="RollerAxleSubAssembly-8" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 0.76604444311898112 -0.64278760968653548 0 0.6427876096865357 0.76604444311898123 1 0 0</Rotation>
+<Translation>0.014948402064887831 0.012953608351303436 0.052754160221359814</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155857 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067194 0 -0.46372832878067194 0.88597744727858896 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155857 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.02495509872663268</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.0074550987266327196</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-6" uid="RollerAxleSubAssembly-6" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 -0.49999999999999512 0.86602540378444137 0 0.86602540378444137 0.49999999999999523 -1.0000000000000002 0 0</Rotation>
+<Translation>0.06049596267728452 0.0049223445098836305 0.069546949821740034</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155857 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858918 0.46372832878067172 0 -0.46372832878067172 0.88597744727858918 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155857 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901656 0.012167300683155829 0.024955098726632763</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155829 0.0074550987266327196</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-7" uid="RollerAxleSubAssembly-7" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 0.17364817766693408 -0.98480775301220735 0 0.98480775301220747 0.17364817766693408 1 0 0</Rotation>
+<Translation>0.053505728468426481 0.003689777617390616 0.052754160221359814</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155913 0.016455098726632741</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067188 0 -0.46372832878067188 0.88597744727858907 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155913 0.016455098726632741</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155829 0.024955098726632721</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155885 0.0074550987266327196</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-9" uid="RollerAxleSubAssembly-9" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 -1 0 0 0 1.0000000000000002 -1.0000000000000002 0 0</Rotation>
+<Translation>0.01570105341223671 0.044834286081846142 0.069546949821740034</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.01216730068315585 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858929 0.46372832878067194 0 -0.46372832878067194 0.88597744727858918 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155857 0.024955098726632707</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="OmniWheel-2" uid="OmniWheel-2" entityUid="OmniWheel" rigid="true">
+<Transform>
+<Rotation>0.50000000000001021 0.86602540378443282 0 -0.86602540378443282 0.50000000000001021 1.1102230246251565e-016 1.1102230246251565e-016 -1.1102230246251565e-016 1</Rotation>
+<Translation>-0.058128463159289323 0.039716264706276927 -0.052238314471320102</Translation>
+</Transform>
+<Instance name="RollerAxleSubAssembly-2" uid="RollerAxleSubAssembly-2" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 -0.17364817766693524 -0.98480775301220702 -1.6653345369377348e-016 0.98480775301220713 -0.17364817766693519 1 1.6653345369377348e-016 0</Rotation>
+<Translation>0.057731387649937793 0.094924087907561946 0.052754160221359703</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901656 0.012167300683155829 0.0164550987266327</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067177 0 -0.46372832878067177 0.88597744727858907 0 0 0 0.99999999999999978</Rotation>
+<Translation>0.0083963948001901656 0.012167300683155829 0.0164550987266327</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901656 0.012167300683155829 0.024955098726632707</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155857 0.0074550987266327196</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-4" uid="RollerAxleSubAssembly-4" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 0.93969262078590854 -0.34202014332566877 0 0.34202014332566877 0.93969262078590843 1 1.1102230246251565e-016 -1.1102230246251565e-016</Rotation>
+<Translation>0.081948486176718155 0.056515495880894259 0.052754160221359703</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858929 0.46372832878067188 1.1102230246251565e-016 -0.46372832878067188 0.88597744727858907 0 -1.3877787807814457e-016 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.024955098726632763</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155829 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="OmniFrame-1" uid="OmniFrame-1" grounded="true" entityUid="OmniFrame*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.046953148146194779 0.061289384808478911 0.056150555021549753</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerAxleSubAssembly-1" uid="RollerAxleSubAssembly-1" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>-1.1102230246251565e-016 0.76604444311898168 -0.64278760968653514 1.6653345369377348e-016 -0.64278760968653526 -0.76604444311898157 -1 -1.1102230246251565e-016 0</Rotation>
+<Translation>0.014948402064887845 0.10962516126565434 0.069546949821739867</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155829 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067183 0 -0.46372832878067183 0.88597744727858907 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155829 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155857 0.024955098726632707</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155802 0.0074550987266326918</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-3" uid="RollerAxleSubAssembly-3" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 0.50000000000000011 -0.8660254037844386 -1.6653345369377348e-016 0.8660254037844386 0.50000000000000022 1 0 -1.1102230246251565e-016</Rotation>
+<Translation>0.076829729032218574 0.080126943406248027 0.052754160221359758</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155885 0.0164550987266327</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067183 -1.1102230246251565e-016 -0.46372832878067194 0.88597744727858918 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155885 0.0164550987266327</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155885 0.024955098726632652</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155885 0.0074550987266327196</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-5" uid="RollerAxleSubAssembly-5" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>-1.6653345369377348e-016 -0.93969262078590798 0.34202014332566993 -1.1102230246251565e-016 0.34202014332567005 0.93969262078590798 -1 0 -2.2204460492503131e-016</Rotation>
+<Translation>0.093559581060565888 0.026814880193544097 0.069546949821739923</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155829 0.0164550987266327</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067194 0 -0.46372832878067194 0.88597744727858907 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155885 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155885 0.024955098726632735</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155829 0.0074550987266327196</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="OmniFrame-2" uid="OmniFrame-2" entityUid="OmniFrame*:*Default">
+<Transform>
+<Rotation>-0.49999999999999195 0.86602540378444326 0 0.86602540378444326 0.4999999999999919 0 0 0 -1</Rotation>
+<Translation>0.046953148146194723 0.061289384808478911 0.066150555021549817</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerAxleSubAssembly-8" uid="RollerAxleSubAssembly-8" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 0.76604444311898123 -0.6427876096865357 0 0.64278760968653548 0.76604444311898123 1 2.2204460492503131e-016 0</Rotation>
+<Translation>0.014948402064887845 0.012953608351303478 0.052754160221359703</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901656 0.012167300683155843 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858929 0.46372832878067177 1.2640790823085251e-016 -0.46372832878067183 0.88597744727858907 1.2180279080093424e-016 0 -1.6653345369377348e-016 1</Rotation>
+<Translation>0.0083963948001901656 0.012167300683155843 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901656 0.012167300683155857 0.024955098726632763</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901656 0.012167300683155857 0.0074550987266326918</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-6" uid="RollerAxleSubAssembly-6" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 -0.49999999999999523 0.86602540378444137 0 0.86602540378444148 0.49999999999999517 -1 0 0</Rotation>
+<Translation>0.060495962677284548 0.0049223445098836444 0.069546949821739923</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155857 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858918 0.46372832878067183 0 -0.46372832878067183 0.88597744727858918 0 0 -1.1102230246251565e-016 0.99999999999999967</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155857 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155802 0.024955098726632735</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155802 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-7" uid="RollerAxleSubAssembly-7" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 0.17364817766693402 -0.98480775301220747 -1.1102230246251565e-016 0.98480775301220735 0.17364817766693405 1 0 -1.6653345369377348e-016</Rotation>
+<Translation>0.053505728468426439 0.0036897776173906438 0.052754160221359758</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067172 0 -0.46372832878067183 0.88597744727858907 0 -1.1102230246251565e-016 -1.2490009027033011e-016 0.99999999999999989</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155857 0.016455098726632755</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.024955098726632763</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.0074550987266327473</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="RollerAxleSubAssembly-9" uid="RollerAxleSubAssembly-9" entityUid="RollerAxleSubAssembly" rigid="true">
+<Transform>
+<Rotation>0 -1 0 0 0 1 -1 0 0</Rotation>
+<Translation>0.01570105341223671 0.044834286081846156 0.069546949821739923</Translation>
+</Transform>
+<Instance name="RollerAxle-1" uid="RollerAxle-1" grounded="true" entityUid="RollerAxle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901656 0.012167300683155885 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="OmniRoller-1" uid="OmniRoller-1" entityUid="OmniRoller*:*Default">
+<Transform>
+<Rotation>0.88597744727858907 0.46372832878067188 0 -0.46372832878067183 0.88597744727858918 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.0083963948001901656 0.012167300683155885 0.016455098726632728</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-1" uid="RollerWasher-1" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001900546 0.012167300683155829 0.024955098726632735</Translation>
+</Transform>
+</Instance>
+<Instance name="RollerWasher-2" uid="RollerWasher-2" entityUid="RollerWasher*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0083963948001901101 0.012167300683155857 0.0074550987266327196</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="OmniWheelJoint-1" uid="OmniWheelJoint-1" grounded="true" entityUid="OmniWheelJoint*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.018426275140270967 0.029698338028258359 0.013912240550229771</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="StepperMotorClampAssembly-2" uid="StepperMotorClampAssembly-2" entityUid="StepperMotorClampAssembly" rigid="true">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0.22224522145136949 0.12156987637390759 0.33744972503925547</Translation>
+</Transform>
+<Instance name="MotorClamp-1" uid="MotorClamp-1" grounded="true" entityUid="MotorClamp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.027909169337594963 0.045383871971024836 0.096148251365257315</Translation>
+</Transform>
+</Instance>
+<Instance name="Nema23StepperMotor-1" uid="Nema23StepperMotor-1" entityUid="Nema23StepperMotor" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0067678413732886189 0.0092699002788009521 0.0085982285712020157</Translation>
+</Transform>
+<Instance name="MotorBody-1" uid="MotorBody-1" grounded="true" entityUid="MotorBody*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.021141327964306345 0.036113971692223884 0.050050022794055293</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorFront-1" uid="MotorFront-1" entityUid="MotorFront*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.021141327964306345 0.036113971692223884 0.082550022794055294</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorShaft-1" uid="MotorShaft-1" entityUid="MotorShaft*:*Default">
+<Transform>
+<Rotation>0.99941550846496285 -0.03418539804828849 0 0.03418539804828849 0.99941550846496285 0 0 0 1</Rotation>
+<Translation>0.021141327964306345 0.036113971692223884 0.061050022794055303</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorRear-1" uid="MotorRear-1" entityUid="MotorRear*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.021141327964306345 0.036113971692223884 0.017550022794055292</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TestBenchChassis-1</Uid>
+</InstancePath>
+<Position>-0.040528353701168307 0.04005203820042838 -0.11462039845114272</Position>
+<Axis>-0.61237243569579658 0.70710678118654746 -0.35355339059327057</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TwoOmniWheelAxleAssembly-1</Uid>
+<Uid>OmniWheelJoint-1</Uid>
+</InstancePath>
+<Position>0 0 0.089999999999999955</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TestBenchChassis-1</Uid>
+</InstancePath>
+<Position>-0.038248711305964453 0.010000000000000009 -0.059033320996790817</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StepperMotorClampAssembly-1</Uid>
+<Uid>MotorClamp-1</Uid>
+</InstancePath>
+<Position>0 -0.027499999999999997 -0.025000000000000022</Position>
+<Axis>1.261617073437678e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TestBenchChassis-1</Uid>
+</InstancePath>
+<Position>-0.050748711305964395 0.010000000000000009 -0.037382685902179802</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StepperMotorClampAssembly-1</Uid>
+<Uid>MotorClamp-1</Uid>
+</InstancePath>
+<Position>0 -0.027499999999999997 -0.050000000000000044</Position>
+<Axis>1.261617073437678e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TestBenchChassis-1</Uid>
+</InstancePath>
+<Position>0 0.010000000000000009 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StepperMotorClampAssembly-1</Uid>
+<Uid>MotorClamp-1</Uid>
+</InstancePath>
+<Position>-0.027499999999999969 -0.029499999999999998 0.0020000000000000018</Position>
+<Axis>1.261617073437678e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TwoOmniWheelAxleAssembly-1</Uid>
+<Uid>OmniWheel-1</Uid>
+<Uid>OmniFrame-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TestBenchChassis-1</Uid>
+</InstancePath>
+<Position>-0.029966491522689404 0.064800775541957401 -0.12584301255494279</Position>
+<Axis>-0.6123724356957958 0.70710678118654746 -0.35355339059327179</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TestBenchChassis-1</Uid>
+</InstancePath>
+<Position>-0.059000000000000025 0.040052038200428297 0.057767766952966315</Position>
+<Axis>1.6355129777955939e-016 0.70710678118654835 0.7071067811865468</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TwoOmniWheelAxleAssembly-2</Uid>
+<Uid>OmniWheelJoint-1</Uid>
+</InstancePath>
+<Position>0 0 0.090000000000000024</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TwoOmniWheelAxleAssembly-2</Uid>
+<Uid>OmniWheel-1</Uid>
+<Uid>OmniFrame-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TestBenchChassis-1</Uid>
+</InstancePath>
+<Position>-0.073999999999999982 0.064800775541957456 0.054232233047033562</Position>
+<Axis>-1.6355129777956011e-016 0.70710678118654835 0.7071067811865468</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TestBenchChassis-1</Uid>
+</InstancePath>
+<Position>0.013000000000000012 0.010000000000000009 0.028000000000000025</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StepperMotorClampAssembly-2</Uid>
+<Uid>MotorClamp-1</Uid>
+</InstancePath>
+<Position>0 -0.027499999999999997 -0.050000000000000017</Position>
+<Axis>1.261617073437678e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TestBenchChassis-1</Uid>
+</InstancePath>
+<Position>-0.012000000000000011 0.010000000000000009 0.028000000000000025</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StepperMotorClampAssembly-2</Uid>
+<Uid>MotorClamp-1</Uid>
+</InstancePath>
+<Position>0 -0.027499999999999997 -0.024999999999999994</Position>
+<Axis>1.261617073437678e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TestBenchChassis-1</Uid>
+</InstancePath>
+<Position>0 0.010000000000000009 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StepperMotorClampAssembly-2</Uid>
+<Uid>MotorClamp-1</Uid>
+</InstancePath>
+<Position>-0.027499999999999969 -0.029499999999999998 0.0020000000000000018</Position>
+<Axis>1.261617073437678e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TestBenchChassis-1</Uid>
+</InstancePath>
+<Position>0.050248711305964228 0.010000000000000009 -0.0382487113059643</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StepperMotorClampAssembly-3</Uid>
+<Uid>MotorClamp-1</Uid>
+</InstancePath>
+<Position>0 -0.027499999999999997 -0.025000000000000022</Position>
+<Axis>1.2616170734376782e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TestBenchChassis-1</Uid>
+</InstancePath>
+<Position>0.037748711305964189 0.010000000000000009 -0.05989934640057526</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StepperMotorClampAssembly-3</Uid>
+<Uid>MotorClamp-1</Uid>
+</InstancePath>
+<Position>0 -0.027499999999999997 -0.049999999999999989</Position>
+<Axis>1.2616170734376782e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TestBenchChassis-1</Uid>
+</InstancePath>
+<Position>0 0.010000000000000009 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StepperMotorClampAssembly-3</Uid>
+<Uid>MotorClamp-1</Uid>
+</InstancePath>
+<Position>-0.027500000000000024 -0.029499999999999998 0.0020000000000000573</Position>
+<Axis>1.2616170734376782e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TestBenchChassis-1</Uid>
+</InstancePath>
+<Position>0.099528353701168026 0.040052038200428325 -0.012429400804578883</Position>
+<Axis>0.6123724356957928 0.70710678118654868 -0.35355339059327462</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TwoOmniWheelAxleAssembly-3</Uid>
+<Uid>OmniWheelJoint-1</Uid>
+</InstancePath>
+<Position>0 0 0.090000000000000024</Position>
+<Axis>-1.1102230246251565e-016 -1.1102230246251565e-016 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TwoOmniWheelAxleAssembly-3</Uid>
+<Uid>OmniWheel-1</Uid>
+<Uid>OmniFrame-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.1102230246251565e-016 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TestBenchChassis-1</Uid>
+</InstancePath>
+<Position>0.103966491522689 0.064800775541957456 0.0023287472051540803</Position>
+<Axis>0.6123724356957928 0.70710678118654879 -0.35355339059327445</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="StepperMotorClampAssembly" uid="StepperMotorClampAssembly" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="StepperMotorClampAssembly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Nema23StepperMotor" uid="Nema23StepperMotor" version="117">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="Nema23StepperMotor.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="TwoOmniWheelAxleAssembly" uid="TwoOmniWheelAxleAssembly" version="121">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="TwoOmniWheelAxleAssembly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="OmniWheel" uid="OmniWheel" version="162">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="OmniWheel.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="RollerAxleSubAssembly" uid="RollerAxleSubAssembly" version="124">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="RollerAxleSubAssembly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="MotorBody" uid="MotorBody*:*Default" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MotorBody.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.11491800000000003</Mass>
+<CenterOfMass>0.00078272333315929836 -6.0760716336859975e-005 -0.00060351511512556533</CenterOfMass>
+<Inertia>7.3111887648367405e-005 7.5855223028974911e-005 6.6550686657203826e-005 -1.6917283070863279e-007 2.1773234439095676e-006 2.1940713432621733e-007</Inertia>
+</MassProperties>
+<GeometryFile name="MotorBody_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MotorClamp" uid="MotorClamp*:*Default" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MotorClamp.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.013798783381245478</Mass>
+<CenterOfMass>0 -0.016563955490497245 -0.030375938513088709</CenterOfMass>
+<Inertia>1.6196104584392638e-005 1.4621197191631169e-005 8.4516608793959718e-006 -1.0733978316328192e-006 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="MotorClamp_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MotorFront" uid="MotorFront*:*Default" version="125">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MotorFront.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.016729725527453661</Mass>
+<CenterOfMass>0 0 0.0029219530488430383</CenterOfMass>
+<Inertia>3.9100982143711238e-006 3.910098214371123e-006 7.7140915539540604e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="MotorFront_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MotorRear" uid="MotorRear*:*Default" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MotorRear.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.012964150456136202</Mass>
+<CenterOfMass>0 0 -0.0024999999999999996</CenterOfMass>
+<Inertia>2.8101906219513255e-006 2.810190621951326e-006 5.5663639503354179e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="MotorRear_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MotorShaft" uid="MotorShaft*:*Default" version="109">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MotorShaft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0030719140920285794</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>2.416378344489896e-006 2.416378344489896e-006 1.5483406996977794e-008 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="MotorShaft_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="OmniFrame" uid="OmniFrame*:*Default" version="152">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="OmniFrame.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.019292208809706647</Mass>
+<CenterOfMass>-1.2921754664291705e-009 2.6219358098970974e-009 0.0025854279394726108</CenterOfMass>
+<Inertia>9.3360871166047338e-006 9.3360871111252709e-006 1.8593018265366975e-005 5.4452890224063111e-014 -5.2451829548511988e-014 -5.5593122620406794e-015</Inertia>
+</MassProperties>
+<GeometryFile name="OmniFrame_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="0" a="1"/>
+<Diffuse r="1" g="1" b="0" a="1"/>
+<Specular r="0.5" g="0.5" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="OmniRoller" uid="OmniRoller*:*Default" version="119">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="OmniRoller.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0037080305371155059</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>1.5716476106520385e-007 1.5716476106520385e-007 1.3770867727403358e-007 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="OmniRoller_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="OmniWheelJoint" uid="OmniWheelJoint*:*Default" version="123">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="OmniWheelJoint.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.02716692247191773</Mass>
+<CenterOfMass>0 0 0.015407632263660015</CenterOfMass>
+<Inertia>1.6904878071910249e-005 1.6904878071910249e-005 7.198106426946024e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="OmniWheelJoint_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="RollerAxle" uid="RollerAxle*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="RollerAxle.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00017594136081744443</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>8.464992783576727e-009 8.4929927835767257e-009 2.4393403091962499e-010 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="RollerAxle_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="RollerWasher" uid="RollerWasher*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="RollerWasher.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.0363328766029336e-005</Mass>
+<CenterOfMass>0 0 0.00025000000000000001</CenterOfMass>
+<Inertia>2.9757866746287989e-011 2.9757866746287989e-011 5.9083928127324768e-011 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="RollerWasher_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TestBenchChassis" uid="TestBenchChassis*:*Default" version="449">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TestBenchChassis.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.2040710330041928</Mass>
+<CenterOfMass>0 0.034515092975394117 -0.023094010767585205</CenterOfMass>
+<Inertia>0.010917570390539299 0.01963359175037933 0.010917570390539246 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="TestBenchChassis_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimMechanicsImportXML>

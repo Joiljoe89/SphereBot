@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="11/29/16||19:37:32" using="SimMechanics Link Version 4.6" from="SolidWorks 24.3.0"/>
+<ModelUnits mass="kilogram" length="inch"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Nema23StepperMotorAssembly" uid="Nema23StepperMotorAssembly" version="112">
+<AssemblyFile name="Nema23StepperMotorAssembly.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="MotorBody-1" uid="MotorBody-1" grounded="true" entityUid="MotorBody*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.029699755650954618 0.03734325204077895 0.05920877054476506</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorShaft-1" uid="MotorShaft-1" entityUid="MotorShaft*:*Default">
+<Transform>
+<Rotation>-0.81404008970064512 0.58080868826160459 0 -0.58080868826160459 -0.81404008970064512 0 0 0 0.99999999999999978</Rotation>
+<Translation>0.029699755650954618 0.03734325204077895 0.069208770544765041</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MotorBody-1</Uid>
+</InstancePath>
+<Position>0 0 0.037500000000000006</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MotorShaft-1</Uid>
+</InstancePath>
+<Position>0 0 0.047499999999999973</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MotorBody-1</Uid>
+</InstancePath>
+<Position>0 0 -0.037500000000000006</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MotorShaft-1</Uid>
+</InstancePath>
+<Position>0 0 -0.047499999999999973</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="MotorBody" uid="MotorBody*:*Default" version="178">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MotorBody.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.13961527428565138</Mass>
+<CenterOfMass>0.00072316586073116679 0 3.7278784753795398e-005</CenterOfMass>
+<Inertia>0.00011098312810909745 0.00011404385276796871 7.9357068847799972e-005 0 3.0327138525026535e-006 0</Inertia>
+</MassProperties>
+<GeometryFile name="MotorBody_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MotorShaft" uid="MotorShaft*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MotorShaft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0030085756571413941</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>2.2702816895543662e-006 2.2702816895543662e-006 1.5164161491885483e-008 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="MotorShaft_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimMechanicsImportXML>
